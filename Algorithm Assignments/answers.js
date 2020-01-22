@@ -333,7 +333,7 @@ function swapTowardCenter(arr){
 	let r=arr.length-1;
 	if(arr==null){return arr}
 	if(arr.length%2==0){
-		while(r-l!=1){
+		while(r-l>=1){
 			temp = arr[l];
 			arr[l] = arr[r];
 			arr[r] = temp;
